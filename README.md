@@ -3,21 +3,7 @@ Setup steps after a fresh linux install
 
 ## General
 
-`sudo apt install git zsh tmux htop vim curl -y`
-
-**oh-my-zsh**
-
- `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
- 
-**oh-my-zsh autocomplete**
-
- Clone this repository into $ZSH_CUSTOM/plugins (by default ~/.oh-my-zsh/custom/plugins)
-
-`git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
-
-Add the plugin to the list of plugins for Oh My Zsh to load (inside ~/.zshrc):
-
-`plugins=(zsh-autosuggestions)`
+`sudo apt install git zsh tmux htop vim curl nnn -y`
 
 **TLP - For laptop's battery saving**
 
@@ -34,6 +20,32 @@ sudo apt-get install linux-image-liquorix-amd64 linux-headers-liquorix-amd64
 
 `wget -O - https://github.com/shvchk/poly-dark/raw/master/install.sh | bash`
 
+## terminal tools
+
+**prezto**
+https://github.com/sorin-ionescu/prezto
+
+**oh-my-zsh**
+
+ `sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+ 
+**oh-my-zsh autocomplete**
+
+ Clone this repository into $ZSH_CUSTOM/plugins (by default ~/.oh-my-zsh/custom/plugins)
+
+`git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions`
+
+Add the plugin to the list of plugins for Oh My Zsh to load (inside ~/.zshrc):
+
+`plugins=(zsh-autosuggestions)`
+
+**spacevim**
+curl -sLf https://spacevim.org/install.sh | bash
+
+**Better cat, find and grep**
+https://github.com/sharkdp/bat
+https://github.com/sharkdp/fd
+https://github.com/BurntSushi/ripgrep
 
 ## Code
 
