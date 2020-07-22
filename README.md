@@ -67,6 +67,18 @@ https://www.jetbrains.com/toolbox-app/
 
 ## Other software
 
+**Flameshot - screenshot software**
+
+https://github.com/lupoDharkael/flameshot
+
+**Peek - Record gifs**
+
+https://github.com/phw/peek
+
+**Drawing - MS Paint alternative**
+
+https://github.com/maoschanz/drawing
+
 **Timeshift - System back-ups**
 
 ```
