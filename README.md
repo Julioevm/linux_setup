@@ -43,9 +43,16 @@ Add the plugin to the list of plugins for Oh My Zsh to load (inside ~/.zshrc):
 curl -sLf https://spacevim.org/install.sh | bash
 
 **Better cat, find and grep**
+
 https://github.com/sharkdp/bat
+
 https://github.com/sharkdp/fd
+
 https://github.com/BurntSushi/ripgrep
+
+**Terminal file manager**
+
+https://github.com/jarun/nnn
 
 ## Code
 
